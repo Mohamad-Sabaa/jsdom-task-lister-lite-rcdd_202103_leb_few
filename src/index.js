@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let toDoList = document.getElementById('tasks');
   let button = document.getElementById('create-task-form');
 
+  let btnId = document.createElement('id');
+  button.appendChild(id);
+
   button.addEventListener('click', (e) => {
     let li = document.createElement('li');
     li.innerText += input.value;
