@@ -7,7 +7,7 @@ let toDos = document.getElementById('tasks');
   button.addEventListener('click', (e) => {
     let li = document.creatElement("li");
     toDos.appendChild(li);
-    toDos.innerText = input.value;
+    li.innerText = input.value;
     e.preventDefault();
   })
 
