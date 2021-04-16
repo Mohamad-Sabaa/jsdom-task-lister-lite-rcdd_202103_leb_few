@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let button = document.getElementById('create-task-form');
 
   let btnId = document.createElement('id');
-  button.appendChild(id);
+  button.appendChild(btnId);
 
   button.addEventListener('click', (e) => {
     let li = document.createElement('li');
