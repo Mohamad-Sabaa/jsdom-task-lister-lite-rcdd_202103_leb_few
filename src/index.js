@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let li = document.createElement('li')
     toDos.appendChild(li);
     toDos.innerText = input.value;
+    e.preventDefault();
   })
 
 };
