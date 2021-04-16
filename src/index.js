@@ -9,6 +9,6 @@ let toDos = document.getElementById('tasks');
     toDos.appendChild(li);
     toDos.innerText = input.value;
     e.preventDefault();
-  }
+  })
 
 });
