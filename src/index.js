@@ -2,10 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // your code here
   let input = document.getElementById('new-task-description');
   let toDoList = document.getElementById('tasks');
-  let button = document.getElementById('create-task-form');
-
-  let btnId = document.createElement('id');
-  button.appendChild(btnId);
+  let button = document.getElementById('btnId');
 
   button.addEventListener('click', (e) => {
     let li = document.createElement('li');
